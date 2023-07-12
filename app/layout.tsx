@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Sidebar />
-        <div className="lg:pl-72">
+        <div className="lg:pl-64">
           {children}
         </div>
       </body>

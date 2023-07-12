@@ -8,7 +8,7 @@ export function Sidebar() {
   const segment = useSelectedLayoutSegment();
 
   return (
-    <div className="fixed top-0 z-10 flex w-full flex-col border-b border-slate-400 bg-slate-200 lg:bottom-0 lg:z-auto lg:w-72 lg:border-b-0 lg:border-r-2 lg:border-slate-400">
+    <div className="fixed top-0 z-10 flex w-full flex-col border-b border-slate-400 bg-slate-200 lg:bottom-0 lg:z-auto lg:w-64 lg:border-b-0 lg:border-r-2 lg:border-slate-400">
       <div
         className='overflow-y-auto lg:static lg:block fixed inset-x-0 bottom-0 top-14 mt-6 bg-red'
       >
