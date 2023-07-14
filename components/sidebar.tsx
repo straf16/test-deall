@@ -10,7 +10,7 @@ export function Sidebar() {
   return (
     <div className="fixed top-0 z-10 flex w-full flex-col border-b border-slate-400 bg-slate-200 lg:bottom-0 lg:z-auto lg:w-64 lg:border-b-0 lg:border-r-2 lg:border-slate-400">
       <div
-        className='overflow-y-auto lg:static lg:block fixed inset-x-0 bottom-0 top-14 mt-6 bg-red'
+        className='overflow-y-auto lg:static lg:block fixed inset-x-0 bottom-0 top-14 mt-6'
       >
         <nav className="space-y-6 px-4 py-5">
           <div>
