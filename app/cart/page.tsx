@@ -55,7 +55,7 @@ export default function Cart() {
 
   return (
     <div className="flex flex-col px-8 py-16">
-      <h1>Cart</h1>
+      <h1>Cart list</h1>
       <div className="flex flex-col w-full my-8 items-end gap-6">
         <Table
           columns={columns}
