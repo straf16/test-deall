@@ -17,7 +17,7 @@ export function Table(props: TableProps) {
   }
 
   return (
-    <table className="table-auto w-full">
+    <table className="table-auto lg:w-full">
       <thead>
         <tr>
           {props.columns.map((column) => (

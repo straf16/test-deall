@@ -68,7 +68,7 @@ export default function CartDetail({ params }: { params: { cartId: string } }) {
         totalPrice={totalPrice}
       />
       <h1 className="mt-10">Products</h1>
-      <div className="flex flex-col w-full my-4 items-end gap-6">
+      <div className="flex flex-col lg:w-full my-4 lg:items-end gap-6 overflow-x-auto">
         <Table columns={columns} rows={products} />
       </div>
     </div>

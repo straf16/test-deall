@@ -70,8 +70,10 @@ export default function Product() {
         placeholder="Search Product"
         onChange={setKeyword}
       />
-      <div className="flex flex-col w-full my-8 items-end gap-6">
-        <Table columns={columns} rows={products} />
+      <div className="flex flex-col w-full my-8 lg:items-end gap-6">
+        <div className="lg:w-full overflow-x-auto">
+          <Table columns={columns} rows={products} />
+        </div>
         <Pagination
           page={skip + 1}
           totalPage={Math.ceil(total / 5)}

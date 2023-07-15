@@ -20,7 +20,7 @@ export function Pagination({ page, totalPage, onPageChange }: PaginationProps) {
   };
 
   return (
-    <div className="flex items-center gap-7">
+    <div className="flex items-center gap-7 w-full justify-between lg:justify-end">
       <button
         className={clsx(
           "border-2 border-slate-400 bg-slate-200 text-slate-600 px-2 py-1",

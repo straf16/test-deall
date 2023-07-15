@@ -56,12 +56,14 @@ export default function Cart() {
   return (
     <div className="flex flex-col px-8 py-16">
       <h1>Cart list</h1>
-      <div className="flex flex-col w-full my-8 items-end gap-6">
-        <Table
-          columns={columns}
-          rows={carts}
-          onRowClick={(id) => router.push(`/cart/${id}`)}
-        />
+      <div className="flex flex-col w-full my-8 lg:items-end gap-6">
+        <div className="lg:w-full overflow-x-auto">
+          <Table
+            columns={columns}
+            rows={carts}
+            onRowClick={(id) => router.push(`/cart/${id}`)}
+          />
+        </div>
         <Pagination
           page={skip + 1}
           totalPage={Math.ceil(total / 5)}
