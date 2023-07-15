@@ -25,7 +25,7 @@ export function Sidebar() {
                 href={"/product"}
                 className={"block rounded-md px-3 py-4 text-sm font-medium hover:text-indigo-200"}
               >
-                {"Product"}
+                {"Products"}
               </Link>
             </div>
             <div className={clsx(
@@ -39,7 +39,7 @@ export function Sidebar() {
                 href={"/cart"}
                 className={"block rounded-md px-3 py-4 text-sm font-medium hover:text-indigo-200"}
               >
-                {"Cart"}
+                {"Carts"}
               </Link>
             </div>
           </div>
